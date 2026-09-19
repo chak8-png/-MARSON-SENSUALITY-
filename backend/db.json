@@ -1,0 +1,358 @@
+{
+ "meta": {
+  "version": 1,
+  "created": "2026-09-19",
+  "note": "Base de données MARSON SENSUALITY — modifiable uniquement via l'API du backend ou le dashboard."
+ },
+ "admin": {
+  "salt": "ms-admin-salt-2026",
+  "password_hash": "55e669cf57fd0bc8c8ec7be2ffe00fb0b64b4874bf0c58746b5efa3f5e379367"
+ },
+ "config": {
+  "brand": "MARSON SENSUALITY",
+  "sousTitre": "Maison de parfum",
+  "slogan": "Vivez intensément, sentez différemment.",
+  "whatsapp": "2250102030405",
+  "whatsappMessage": "Bonjour MARSON SENSUALITY, je souhaiterais avoir des informations concernant un parfum.",
+  "email": "contact@marson-sensuality.com",
+  "telephone": "+225 01 02 03 04 05",
+  "adresse": "Abidjan, Côte d'Ivoire",
+  "horaires": "Lundi – Samedi · 8h00 – 18h00",
+  "instagram": "https://www.instagram.com/",
+  "facebook": "https://www.facebook.com/",
+  "tiktok": "https://www.tiktok.com/",
+  "facebookPixelId": "",
+  "livraison": {
+   "abidjan": 1500,
+   "interieur": 3000,
+   "delai": "3 jours"
+  }
+ },
+ "announcements": [
+  "Livraison disponible à Abidjan et partout en Côte d'Ivoire",
+  "Découvrez nos nouveautés",
+  "Paiement Mobile Money, carte ou à la livraison",
+  "Profitez de nos offres du moment"
+ ],
+ "phrases": {
+  "marque": "Une fragrance ne se porte pas seulement. Elle se ressent.",
+  "collection": "Chaque fragrance raconte une histoire.",
+  "sensualite": "La sensualité, dans chaque sillage.",
+  "univers": "Un parfum ne se contente pas de vous accompagner. Il laisse une empreinte."
+ },
+ "categories": [
+  {
+   "id": "parfums",
+   "nom": "Parfums",
+   "img": "assets/img/cat-parfums.webp",
+   "phrase": "Eaux de parfum signatures"
+  },
+  {
+   "id": "brumes",
+   "nom": "Brumes",
+   "img": "assets/img/cat-brumes.webp",
+   "phrase": "Voiles parfumés délicats"
+  },
+  {
+   "id": "coffrets",
+   "nom": "Coffrets",
+   "img": "assets/img/cat-coffrets.webp",
+   "phrase": "Attentions prêtes à offrir"
+  }
+ ],
+ "collections": [
+  {
+   "id": "sensuality",
+   "nom": "Collection Sensuality",
+   "img": "assets/img/univers.webp",
+   "phrase": "Fragrances sensuelles et envoûtantes, comme une présence qui ne s'oublie pas."
+  },
+  {
+   "id": "elegance",
+   "nom": "Collection Élégance",
+   "img": "assets/img/cat-parfums.webp",
+   "phrase": "Fragrances raffinées et sophistiquées, pour une allure intemporelle."
+  },
+  {
+   "id": "intense",
+   "nom": "Collection Intense",
+   "img": "assets/img/p-ambre.webp",
+   "phrase": "Fragrances profondes et puissantes, aux sillages inoubliables."
+  },
+  {
+   "id": "signature",
+   "nom": "Collection Signature",
+   "img": "assets/img/coll-signature.webp",
+   "phrase": "Les parfums emblématiques de la maison, essentiels et évidents."
+  }
+ ],
+ "products": [
+  {
+   "id": "vanille-sensuality",
+   "nom": "Marson Vanille Sensuality",
+   "type": "parfums",
+   "audience": "femme",
+   "format": "Eau de parfum · 50 ml",
+   "prix": 22000,
+   "ancienPrix": null,
+   "nouveau": true,
+   "promo": false,
+   "img": "assets/img/p-vanille.webp",
+   "desc": "Une caresse de vanille bourbon réchauffée d'ambre et de bois de santal. Un sillage doux, enveloppant, intimement sensuel — comme une confidence déposée sur la peau.",
+   "notes": {
+    "tete": "Bergamote, fleur de vanillier",
+    "coeur": "Vanille bourbon, héliotrope",
+    "fond": "Santal, ambre, musc blanc"
+   },
+   "keywords": [
+    "vanille",
+    "vanilla",
+    "sucre",
+    "doux",
+    "ambre",
+    "santale",
+    "femme",
+    "parfum femme"
+   ],
+   "collections": [
+    "sensuality",
+    "signature"
+   ]
+  },
+  {
+   "id": "rose-eclat",
+   "nom": "Rose Éclat",
+   "type": "parfums",
+   "audience": "femme",
+   "format": "Eau de parfum · 50 ml",
+   "prix": 18000,
+   "ancienPrix": 21000,
+   "nouveau": false,
+   "promo": true,
+   "img": "assets/img/p-rose.webp",
+   "desc": "Une rose fraîche et lumineuse, ourlée de pivoine et de musc blanc. L'éclat d'un matin de femme, entre délicatesse et assurance.",
+   "notes": {
+    "tete": "Rose de mai, pivoine",
+    "coeur": "Pétale de rose, lychee",
+    "fond": "Musc blanc, cèdre clair"
+   },
+   "keywords": [
+    "rose",
+    "floral",
+    "fleur",
+    "pivoine",
+    "femme",
+    "parfum femme",
+    "promotion"
+   ],
+   "collections": [
+    "elegance"
+   ]
+  },
+  {
+   "id": "ambre-nuit",
+   "nom": "Ambre Nuit",
+   "type": "parfums",
+   "audience": "unisexe",
+   "format": "Eau de parfum · 75 ml",
+   "prix": 26000,
+   "ancienPrix": null,
+   "nouveau": false,
+   "promo": false,
+   "img": "assets/img/p-ambre.webp",
+   "desc": "Un ambre profond, traversé de oud et de benjoin. Une fragrance de soirée, magnétique, qui laisse une empreinte longtemps après le départ.",
+   "notes": {
+    "tete": "Safran, poivre rose",
+    "coeur": "Oud, benjoin",
+    "fond": "Ambre gris, vanille noire"
+   },
+   "keywords": [
+    "ambre",
+    "oud",
+    "soir",
+    "intense",
+    "unisexe",
+    "mixte",
+    "boise"
+   ],
+   "collections": [
+    "intense"
+   ]
+  },
+  {
+   "id": "fleur-de-coton",
+   "nom": "Fleur de Coton",
+   "type": "parfums",
+   "audience": "femme",
+   "format": "Eau de parfum · 50 ml",
+   "prix": 19500,
+   "ancienPrix": null,
+   "nouveau": false,
+   "promo": false,
+   "img": "assets/img/p-coton.webp",
+   "desc": "Le souvenir d'un lin fraîchement lavé et d'une peau au réveil. Iris poudré, fleur de coton et cèdre doux : la pureté faite sillage.",
+   "notes": {
+    "tete": "Fleur de coton, poire",
+    "coeur": "Iris poudré, muguet",
+    "fond": "Cèdre doux, musc"
+   },
+   "keywords": [
+    "coton",
+    "poudre",
+    "iris",
+    "propre",
+    "doux",
+    "femme",
+    "parfum femme"
+   ],
+   "collections": [
+    "elegance"
+   ]
+  },
+  {
+   "id": "eclat-divoire",
+   "nom": "Éclat d'Ivoire",
+   "type": "parfums",
+   "audience": "femme",
+   "format": "Eau de parfum · 50 ml",
+   "prix": 24000,
+   "ancienPrix": null,
+   "nouveau": true,
+   "promo": false,
+   "img": "assets/img/cat-parfums.webp",
+   "desc": "Un bouquet blanc solaire — jasmin, fleur d'oranger — posé sur un fond de bois crème. L'élégance naturelle, celle qui n'insiste pas.",
+   "notes": {
+    "tete": "Fleur d'oranger, mandarine",
+    "coeur": "Jasmin, gardénia",
+    "fond": "Bois crème, ambre clair"
+   },
+   "keywords": [
+    "blanc",
+    "jasmin",
+    "fleur d'oranger",
+    "lumineux",
+    "femme",
+    "parfum femme",
+    "nouveaute"
+   ],
+   "collections": [
+    "signature",
+    "elegance"
+   ]
+  },
+  {
+   "id": "voile-de-soie",
+   "nom": "Voile de Soie",
+   "type": "brumes",
+   "audience": "femme",
+   "format": "Brume parfumée · 100 ml",
+   "prix": 12000,
+   "ancienPrix": null,
+   "nouveau": true,
+   "promo": false,
+   "img": "assets/img/cat-brumes.webp",
+   "desc": "Une brume légère comme un voile de soie sur l'épaule. Musc rosé et violette : à vaporiser partout, tout le jour, pour soi d'abord.",
+   "notes": {
+    "tete": "Poire, violette",
+    "coeur": "Musc rosé, pivoine",
+    "fond": "Cashmeran, ambre clair"
+   },
+   "keywords": [
+    "brume",
+    "mist",
+    "voile",
+    "soie",
+    "leger",
+    "rose",
+    "femme",
+    "body mist"
+   ],
+   "collections": [
+    "sensuality"
+   ]
+  },
+  {
+   "id": "coffret-decouverte",
+   "nom": "Coffret Découverte",
+   "type": "coffrets",
+   "audience": "femme",
+   "format": "3 vaporisateurs · 15 ml",
+   "prix": 28000,
+   "ancienPrix": null,
+   "nouveau": false,
+   "promo": false,
+   "img": "assets/img/cat-coffrets.webp",
+   "desc": "Trois signatures de la maison en format voyage, présentées dans un écrin ivoire noué de satin. L'attention parfaite, à offrir ou à s'offrir.",
+   "notes": {
+    "tete": "Vanille Sensuality",
+    "coeur": "Rose Éclat",
+    "fond": "Éclat d'Ivoire"
+   },
+   "keywords": [
+    "coffret",
+    "cadeau",
+    "coffret cadeau",
+    "decouverte",
+    "voyage",
+    "offrir"
+   ],
+   "collections": [
+    "signature"
+   ]
+  },
+  {
+   "id": "coffret-signature",
+   "nom": "Coffret Signature",
+   "type": "coffrets",
+   "audience": "unisexe",
+   "format": "Trio d'eaux de parfum · 30 ml",
+   "prix": 45000,
+   "ancienPrix": 52000,
+   "nouveau": false,
+   "promo": true,
+   "img": "assets/img/coll-signature.webp",
+   "desc": "Le trio emblématique de MARSON SENSUALITY réuni sur un plateau de marbre crème : trois caractères, une même signature.",
+   "notes": {
+    "tete": "Vanille Sensuality",
+    "coeur": "Ambre Nuit",
+    "fond": "Éclat d'Ivoire"
+   },
+   "keywords": [
+    "coffret",
+    "cadeau",
+    "trio",
+    "signature",
+    "offrir",
+    "unisexe"
+   ],
+   "collections": [
+    "signature",
+    "intense"
+   ]
+  }
+ ],
+ "featured": [
+  "vanille-sensuality",
+  "rose-eclat",
+  "ambre-nuit",
+  "voile-de-soie"
+ ],
+ "featuredCollection": "signature",
+ "promos": {
+  "MARSON10": {
+   "rate": 0.1,
+   "debut": "",
+   "fin": ""
+  },
+  "SENSUALITE15": {
+   "rate": 0.15,
+   "debut": "",
+   "fin": ""
+  }
+ },
+ "orders": [],
+ "users": {},
+ "messages": [],
+ "newsletter": [],
+ "tokens": {}
+}

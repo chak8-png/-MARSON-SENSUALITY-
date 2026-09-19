@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.tmp
+
+# Environnement local
+.env
+.venv/
+
+#Workspace (hors projet)
+uploads/
+
+# Éditeurs
+.vscode/
+.idea/
+.DS_Store
