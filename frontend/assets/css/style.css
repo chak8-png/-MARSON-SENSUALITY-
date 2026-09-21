@@ -17,7 +17,7 @@
   --muted:#8A7A70;
   --gold:#C3A163;
   --gold-soft:rgba(195,161,99,.35);
-  --line:#EBD8D1;
+  --line:#EBD8D1; /* rosé nude léger : séparateurs, bordures fines */
   --white:#FFFDF9;
   --serif:'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --sans:'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -582,7 +582,8 @@ h1,h2,h3,.serif{font-family:var(--serif);font-weight:400;line-height:1.15;letter
   .nav{display:none}
   .burger{display:flex}
   .header-in{grid-template-columns:auto 1fr auto;padding:18px 0}
-  .brand{font-size:18px}
+  .brand{font-size:18px;gap:10px}
+  .medallion{width:32px;height:32px}
   .search-label{display:none}
   .cat-grid{grid-template-columns:1fr 1fr}
   .prod-grid,.prod-grid.three{grid-template-columns:1fr 1fr}
@@ -712,4 +713,12 @@ body[data-page="admin"]{background:var(--cream)}
 }
 .adm-detail td{padding:18px 22px}
 
+/* Correctif : l'attribut hidden doit toujours gagner sur les display CSS */
 [hidden]{display:none !important}
+
+/* — Médaillon logo (monogramme MS) : en-tête, pied de page, connexion admin — */
+.brand{display:flex;align-items:center;gap:12px}
+.brand > span{display:block}
+.medallion{width:44px;height:44px;border-radius:50%;object-fit:cover;flex:none;box-shadow:0 2px 12px rgba(47,36,32,.14)}
+.footer .medallion-f,.medallion-f{width:54px;height:54px}
+.adm-login .medallion-lg,.medallion-lg{width:76px;height:76px;display:block;margin:0 auto 16px;box-shadow:0 6px 22px rgba(47,36,32,.16)}

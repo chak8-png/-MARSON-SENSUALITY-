@@ -66,7 +66,7 @@ function mountChrome(){
   <div class="announce" aria-live="polite">${MS.announcements.map((m,i)=>`<span class="${i===0?"on":""}"><i class="star">✦</i>${esc(m)}<i class="star">✦</i></span>`).join("")}</div>
   <header class="header">
     <div class="container header-in">
-      <a class="brand" href="index.html">MARSON SENSUALITY<small>${esc(MS.config.sousTitre || "Maison de parfum")}</small></a>
+      <a class="brand" href="index.html"><img class="medallion" src="assets/img/logo-monogram.webp" alt=""><span>MARSON SENSUALITY<small>${esc(MS.config.sousTitre || "Maison de parfum")}</small></span></a>
       <nav class="nav" aria-label="Navigation principale">
         ${nav.map(([h,l,id])=>`<a href="${h}" class="${page===id?"active":""}">${l}</a>`).join("")}
       </nav>
@@ -98,7 +98,7 @@ function mountFooter(){
     <div class="container">
       <div class="footer-grid">
         <div>
-          <a class="brand" href="index.html">MARSON SENSUALITY<small>${esc(c.sousTitre || "Maison de parfum")}</small></a>
+          <a class="brand" href="index.html"><img class="medallion medallion-f" src="assets/img/logo-monogram.webp" alt=""><span>MARSON SENSUALITY<small>${esc(c.sousTitre || "Maison de parfum")}</small></span></a>
           <p class="tagline">${esc(c.slogan || "")}</p>
           <div class="socials">
             <a href="${esc(c.instagram)}" target="_blank" rel="noopener" aria-label="Instagram">${I.ig}</a>
