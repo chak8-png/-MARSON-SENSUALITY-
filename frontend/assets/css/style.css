@@ -17,7 +17,7 @@
   --muted:#8A7A70;
   --gold:#C3A163;
   --gold-soft:rgba(195,161,99,.35);
-  --line:rgba(47,36,32,.12);
+  --line:#EBD8D1;
   --white:#FFFDF9;
   --serif:'Cormorant Garamond', Georgia, 'Times New Roman', serif;
   --sans:'Jost', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -711,3 +711,5 @@ body[data-page="admin"]{background:var(--cream)}
   .search-field input{font-size:22px}
 }
 .adm-detail td{padding:18px 22px}
+
+[hidden]{display:none !important}
