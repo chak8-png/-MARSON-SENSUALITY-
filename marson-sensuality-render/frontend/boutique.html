@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boutique — MARSON SENSUALITY</title>
+<meta name="description" content="Toutes les fragrances MARSON SENSUALITY : parfums, brumes et coffrets. Recherche, filtres et tri.">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<!-- Open Graph : remplacer https://votre-domaine.ci par votre domaine réel à la mise en ligne -->
+<meta property="og:site_name" content="MARSON SENSUALITY">
+<meta property="og:title" content="Boutique — MARSON SENSUALITY">
+<meta property="og:description" content="Toutes les fragrances MARSON SENSUALITY : parfums, brumes et coffrets. Recherche, filtres et tri.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://votre-domaine.ci/boutique.html">
+<meta property="og:image" content="https://votre-domaine.ci/assets/img/hero.webp">
+<meta property="og:locale" content="fr_CI">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="boutique">
+
+<main>
+  <div class="page-head">
+    <div class="container">
+      <p class="crumbs"><a href="index.html">Accueil</a> · Boutique</p>
+      <h1>La <em>Boutique</em></h1>
+      <p>Toutes les fragrances de la maison, réunies en un seul lieu. Recherchez, filtrez, choisissez.</p>
+    </div>
+  </div>
+
+  <section class="section" style="padding-top:40px">
+    <div class="container">
+      <div class="shop-toolbar">
+        <div class="filters" id="shop-filters"></div>
+        <div class="shop-tools">
+          <div class="search-mini">
+            <svg viewBox="0 0 24 24" style="width:15px;height:15px;stroke:var(--brown-2);fill:none;stroke-width:1.5"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+            <input id="shop-q" type="search" placeholder="Rechercher… (vanille, brume)" aria-label="Rechercher dans la boutique">
+          </div>
+          <select id="shop-sort" aria-label="Trier les produits">
+            <option value="selection">Notre sélection</option>
+            <option value="nouveautes">Nouveautés d'abord</option>
+            <option value="prix-asc">Prix croissant</option>
+            <option value="prix-desc">Prix décroissant</option>
+            <option value="nom">Nom A–Z</option>
+          </select>
+        </div>
+        <span class="count-lab" id="shop-count"></span>
+      </div>
+      <div class="prod-grid" id="shop-grid"></div>
+    </div>
+  </section>
+</main>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

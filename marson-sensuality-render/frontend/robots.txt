@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /commande.html
+Disallow: /compte.html
+
+# [À REMPLACER] par votre domaine réel à la mise en ligne
+Sitemap: https://votre-domaine.ci/sitemap.xml

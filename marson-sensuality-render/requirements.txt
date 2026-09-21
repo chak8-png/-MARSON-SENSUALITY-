@@ -1,0 +1,3 @@
+# MARSON SENSUALITY — backend sans aucune dépendance externe.
+# Ce fichier existe uniquement pour que Render détecte un projet Python.
+# (Python standard library seulement : http.server, json, hashlib, secrets…)

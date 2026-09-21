@@ -1,0 +1,25 @@
+# ============================================================
+#  Blueprint Render — MARSON SENSUALITY
+#  Déploiement en un clic : https://dashboard.render.com → New → Blueprint
+#  (ou création manuelle d'un Web Service, voir README.md racine)
+#
+#  ⚠ Le plan "starter" (payant) est requis pour le disque persistant :
+#    sans disque, Render efface db.json à chaque redémarrage.
+#    Alternative gratuite : voir README.md → « Déployer sur Render ».
+# ============================================================
+services:
+  - type: web
+    name: marson-sensuality
+    runtime: python
+    plan: starter
+    region: frankfurt            # au choix : proche de vos clientes ? Render n'a pas de région Afrique de l'Ouest ; frankfurt = latence correcte
+    buildCommand: ""             # aucune dépendance à installer
+    startCommand: python backend/server.py
+    healthCheckPath: /
+    envVars:
+      - key: DB_PATH
+        value: /data/db.json     # base sur le disque persistant
+    disks:
+      - name: data
+        mountPath: /data
+        sizeGB: 1                # largement suffisant (photos compressées incluses)
